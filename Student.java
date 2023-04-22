@@ -7,12 +7,9 @@ public class Student {
 
     
 }
-Student (int i,String n){
+Void display(){
 
-   roll= i;
-   name = n;
-
-   System.out.println("Student Roll no"+roll);
+   System.out.println("Student Roll no:"+roll);
 
     System.out.println("Student name"+name);
 
@@ -20,7 +17,8 @@ Student (int i,String n){
 }
 public static void main(String[] args) {
     
-
+Student s = new Student();
+S.display(6,"vijay");
 
     
 }
