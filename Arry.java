@@ -1,40 +1,27 @@
-public class Arry {
+public class Array {
+            public static void main(String[]args)
+            {
 
-    int arry[]={10,20,30,40,50};
-    int arry1[]={60,70,80,90,100};
-    int sum;
+                int i;
+                int [] c = new int[20];
+                int [] a={10,20,30,40,50};
+                int [] b={3,4,5,6,7};
+                int sum=0;
 
- void sum(){
-  for(int i=0;i<4;i++);
+                for(i=0;i<b.length;i++)
+                {
+                    c[i]= a[i]+b[i];
+                    
+                }
 
-  {
-
-  for(int j=0;j<4;j++);
-
-  System.out.println("sum"+(arry)+(arry1));
-
-  }
-
-
-  }
-    
-
-  
-
-
+                for( i=0;i<a.length;i++)
+                {
+                    System.out.println(" "+c[i]);
+                }
+               
+              
 
 
-
-
-public static void main(String[] args) {
-
-    Arry a = new Arry();
-    a.sum();
-    
-}
-
-
-
-
-}
-
+                
+            }
+};
